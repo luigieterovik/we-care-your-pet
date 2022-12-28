@@ -96,3 +96,81 @@ p {
 .button-section:active {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1320px) {
+    img {
+        margin: 0 40px 0 50px;
+        width: 500px;
+    }
+
+    header {
+        margin-bottom: 70px;
+    }
+
+    section {
+        position: initial;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    img {
+        width: 400px;
+        display: block;
+        margin: 5px auto;
+        max-width: 100%;
+    }
+
+    section {
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        margin-left: 10px;
+        margin-bottom: 40px;
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        position: relative;
+        left: 23vw;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        display: none;
+    }
+
+    img {
+        width: 80vw;
+        display: block;
+        margin: 5px auto;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 7px 0 17px;
+    }
+
+    p {
+        display: none;
+    }
+
+    div {
+        margin: 20vw 0;
+    }
+}
